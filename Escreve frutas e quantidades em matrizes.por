@@ -10,7 +10,7 @@ programa
 		
 		faca
 		{
-			escreva ("Produto: ", cesta[contador][0], "\nQuantidade: ", cesta[contador][1], "\n")
+			escreva ("Produto: ", cesta[contador][0], "\t\tQuantidade: ", cesta[contador][1], "\n")
 
 			contador ++
 		}enquanto (contador <= 3)
