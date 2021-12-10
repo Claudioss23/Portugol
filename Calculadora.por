@@ -6,10 +6,9 @@ programa
 		real numero[2], operacao
 		inteiro i, escolhaCaso, escolhaOperacao = 1
 
-		escreva ("Escolha a operação:\n1- Soma\n2- Subtração\n3- Multiplicação\n4- Divisão\n")
-		leia (escolhaCaso)
-
 		enquanto (escolhaOperacao == 1) {
+			escreva ("Escolha a operação:\n1- Soma\n2- Subtração\n3- Multiplicação\n4- Divisão\n")
+			leia (escolhaCaso)
 			escolha (escolhaCaso) {
 				caso 1:
 					para (i = 0; i <= 1; i++) {
